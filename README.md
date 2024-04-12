@@ -1,2 +1,8 @@
 # ECG-Anomaly-Detection-using-Autoencoders
-In this project, we'll explore the intriguing field of ECG signal processing and classification, utilizing the capabilities of a CNN Autoencoder.
+In this project, we'll explore the intriguing field of ECG signal processing and classification, utilizing the capabilities of a CNN Autoencoder.  The dataset used is sourced from the PTB Diagnostic ECG Database from Physionet, a collection of 14,552 ECG recordings with two classes: normal heartbeats and those affected by cardiac abnormalities. The dataset is sampled at 125Hz, providing high-resolution data for in-depth analysis.
+
+Auto Encoders: Autoencoders are a class of neural network architectures commonly used in unsupervised machine learning and deep learning tasks. Their primary purpose is to discover and learn efficient representations of data by encoding it into a lower-dimensional latent space and subsequently decoding it back to its original form. Autoencoders play a crucial role in various applications, such as dimensionality reduction, data denoising, anomaly detection, and generative modelling.
+
+The core components of an autoencoder consist of an encoder and a decoder. The encoder maps input data to the latent space, while the decoder reconstructs the data from its encoded representation. During training, autoencoders aim to minimize the reconstruction error between the input and the decoded output, which results in the learning of meaningful data representations. Autoencoders offer a versatile tool for feature extraction, data compression, and more, making them a valuable addition to the toolkit of data scientists and machine learning practitioners.
+
+To classify a sequence as normal or an anomaly, we'll pick a threshold above which a heartbeat is considered abnormal.
