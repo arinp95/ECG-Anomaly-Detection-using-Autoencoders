@@ -26,8 +26,8 @@ Anomaly detection is critical in various domains, especially in healthcare, wher
 - Comparing Samples: Visual comparisons of random samples from normal and anomalous datasets helped identify potential patterns or differences in their characteristics.
 - Smoothed Mean and Confidence Intervals: Plots of the smoothed mean and confidence intervals for both classes provided insights into the distribution and variability of the ECG signals.
 
-![download (1)](https://github.com/user-attachments/assets/338b1b51-344a-4061-b66c-3468e8fa75d7)
-![download](https://github.com/user-attachments/assets/45e86b7f-aa6c-4ced-8c77-0e2bca6fe44d)
+![download (1)](https://github.com/user-attachments/assets/9b745e5f-729e-4635-a5bb-030449899210)
+![download](https://github.com/user-attachments/assets/0467b98e-cae5-49de-bf85-7f84c700bb56)
 
 
 **4. Model Building**
@@ -36,16 +36,16 @@ Anomaly detection is critical in various domains, especially in healthcare, wher
 - Threshold Setting: A threshold was established based on the mean training loss plus one standard deviation to distinguish between normal and anomalous data.
 
 ![Autoencoder](https://github.com/user-attachments/assets/c28ba701-168f-47a0-8d40-4f3e2167c9ea)
-![download (3)](https://github.com/user-attachments/assets/53b4d1b6-fb93-4599-b6bf-905adb6d06e9)
-![download (2)](https://github.com/user-attachments/assets/bdbd9bf8-e6cf-4388-998c-66556ba87455)
-![download (4)](https://github.com/user-attachments/assets/ff967d98-ba9f-4bd2-b8b2-9cc89d66c21e)
+![download (3)](https://github.com/user-attachments/assets/44b2adde-fedb-4956-8095-f2fe3e10ef37)
+![download (2)](https://github.com/user-attachments/assets/bfabcec5-d941-4de0-8712-46fc565015ac)
+![download (4)](https://github.com/user-attachments/assets/f7e83770-6edb-4868-87dd-b44a5645ba6c)
 
 **5. Model Evaluation**
 - Evaluation Metrics: The model's performance was assessed using accuracy, precision, recall, and F1-score. Visualization tools like confusion matrices and classification reports provided additional insights.
 - Function Implementation: Custom functions, such as evaluate_model, prepare_labels, and plot_confusion_matrix, were developed to streamline model evaluation and metric calculation.
 - Insights from Evaluation: The evaluation process revealed the model's strengths and areas for improvement, guiding further refinements to enhance anomaly detection accuracy.
 
-![Screenshot 2024-04-23 174920](https://github.com/user-attachments/assets/7a2a1614-c3b8-46fc-a09d-c0cf7b551487)
+![Screenshot 2024-04-23 174920](https://github.com/user-attachments/assets/cece130d-8d1a-4c27-888a-cfb1264ce1d1)
 
 
 ## Conclusion
