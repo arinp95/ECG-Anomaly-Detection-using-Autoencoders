@@ -25,6 +25,7 @@ Anomaly detection is critical in various domains, especially in healthcare, wher
 **3. Exploratory Data Analysis (EDA)**
 - Comparing Samples: Visual comparisons of random samples from normal and anomalous datasets helped identify potential patterns or differences in their characteristics.
 - Smoothed Mean and Confidence Intervals: Plots of the smoothed mean and confidence intervals for both classes provided insights into the distribution and variability of the ECG signals.
+
 ![download (1)](https://github.com/user-attachments/assets/338b1b51-344a-4061-b66c-3468e8fa75d7)
 ![download](https://github.com/user-attachments/assets/45e86b7f-aa6c-4ced-8c77-0e2bca6fe44d)
 
@@ -33,6 +34,7 @@ Anomaly detection is critical in various domains, especially in healthcare, wher
 - CNN Autoencoder Structure: The model comprises an encoder that compresses ECG data and a decoder that reconstructs it. The encoder captures essential features through convolutional layers, while the decoder reconstructs the original signals.
 - Training and Optimization: The model was trained on normal ECG signals, with a focus on minimizing reconstruction error. The training process included early stopping to prevent overfitting, using a batch size of 128.
 - Threshold Setting: A threshold was established based on the mean training loss plus one standard deviation to distinguish between normal and anomalous data.
+
 ![Autoencoder](https://github.com/user-attachments/assets/c28ba701-168f-47a0-8d40-4f3e2167c9ea)
 ![download (3)](https://github.com/user-attachments/assets/53b4d1b6-fb93-4599-b6bf-905adb6d06e9)
 ![download (2)](https://github.com/user-attachments/assets/bdbd9bf8-e6cf-4388-998c-66556ba87455)
@@ -42,6 +44,7 @@ Anomaly detection is critical in various domains, especially in healthcare, wher
 - Evaluation Metrics: The model's performance was assessed using accuracy, precision, recall, and F1-score. Visualization tools like confusion matrices and classification reports provided additional insights.
 - Function Implementation: Custom functions, such as evaluate_model, prepare_labels, and plot_confusion_matrix, were developed to streamline model evaluation and metric calculation.
 - Insights from Evaluation: The evaluation process revealed the model's strengths and areas for improvement, guiding further refinements to enhance anomaly detection accuracy.
+
 ![Screenshot 2024-04-23 174920](https://github.com/user-attachments/assets/7a2a1614-c3b8-46fc-a09d-c0cf7b551487)
 
 
